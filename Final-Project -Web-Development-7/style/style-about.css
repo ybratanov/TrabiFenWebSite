@@ -1,0 +1,33 @@
+div,
+ul,
+li {
+  color: brown;
+}
+
+article {
+    color: brown;
+}
+
+figcaption{
+    color: brown;
+    font-style: italic;
+}
+
+h1{
+    font-family: Impact;
+}
+
+h4 {
+    font-family: Impact;
+    font-display:  center;
+    color: brown;
+    font-size: 22px;
+}
+
+.idea-for-site {
+    font-family: Impact;
+    font-size: 12px;
+    color: chocolate;
+}
+
+

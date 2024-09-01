@@ -1,0 +1,54 @@
+h4 {
+  font-size: 32px;
+  font-family: "Gill Sans";
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  opacity: 0.9;
+}
+
+/*  for escap doblicate same code login and singup togrder stayling */
+.login,
+.singup {
+  display: inline-block;
+  background-color:  #f2f2f2;
+  margin: 20px;
+  padding: 40px;
+  font-size: 16px;
+  /* opacity: 0.8; */
+  border: 2px double goldenrod;
+  border-radius: 5px;
+  text-align: center; /* Центриране на съдържанието на формите */
+  color: chocolate;;
+}
+/*  */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block; /* Поставете етикетите на нов ред за по-добро подравняване */
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="date"] {
+  width: 100%; /* Напълнете ширината на текстовите полета */
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+img {
+  display: inline;
+  height: 250px;
+  width: 400px;
+  flex-wrap: wrap;
+}

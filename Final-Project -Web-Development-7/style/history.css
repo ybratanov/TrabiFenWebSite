@@ -1,0 +1,31 @@
+/* ---This is for page History ---*/
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.image-container {
+  margin: 1px;
+}
+
+.image-container img {
+  max-width: 300px;
+  height: 200px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  color: #993333;
+}
+
+li {
+  text-align: left ;
+  color: #993333;
+}

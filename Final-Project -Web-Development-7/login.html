@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/style-login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images-home-page/logo3.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about-us.html">About us</a></li>
+        </ul>
+      </nav>
+      <div class="search">
+        <form
+          action="https://www.google.com/search"
+          method="GET"
+          target="_blank"
+        >
+          <input type="text" name="q" placeholder="Search Google..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <main>
+      <h1>Join us...</h1>
+      <div id="container">
+        <section class="login">
+          <h4>Log-in</h4>
+          <fieldset>
+            <legend>LOGIN:</legend>
+            <label for="fname">Email:</label>
+            <input type="text" id="fname" name="fname" /><br /><br />
+            <label for="lname">Passord:</label>
+            <input type="text" id="lname" name="lname" /><br /><br />
+
+            <input type="submit" value="Log in" />
+            <p><a href=""><i>Forgotten password</i></a></p>
+          </fieldset>
+        </section>
+        <div class="image-container">
+          <img
+            style="
+              
+              opacity: 0.8;
+            "
+            src="/images-home-page/home-trabant-601.jpg"
+            alt="Transformars Trabant"
+            width="800"
+            height="400"
+          />
+          <h4 class="animated-text">Log in to more...</h4>
+        </div>
+        <section class="singup">
+          <h4>Sing up</h4>
+          <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" /><br /><br />
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" /><br /><br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" /><br /><br />
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" /><br /><br />
+            <input type="submit" value="Submit" />
+          </fieldset>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="index.html">Home pages</a>
+      <a href="contact.html">Contact</a>
+      <a href="about-us.html">Abaut Us</a>
+      <a
+        href="https://en.wikipedia.org/wiki/Trabant#Further_reading"
+        target="_blank"
+        >This is for school purpose</a
+      >
+    </footer>
+  </body>
+</html>
